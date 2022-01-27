@@ -233,7 +233,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!74 &105476022
 AnimationClip:
@@ -632,7 +632,7 @@ Transform:
   - {fileID: 751943661}
   - {fileID: 1651655728}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!320 &521824037
 PlayableDirector:
@@ -733,7 +733,7 @@ Transform:
   - {fileID: 764728990}
   - {fileID: 1490130365}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!320 &655095109
 PlayableDirector:
@@ -1645,57 +1645,6 @@ PlayableDirector:
     value: {fileID: 1954835999}
   m_ExposedReferences:
     m_References: []
---- !u!1 &1392175117
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1392175119}
-  - component: {fileID: 1392175118}
-  m_Layer: 0
-  m_Name: step1Timeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!320 &1392175118
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392175117}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 0}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &1392175119
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392175117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1490130362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2208,16 +2157,16 @@ MonoBehaviour:
   m_Script: {fileID: -780924145, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: first
+  mTrackableName: without_sleeve
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/first_OT.xml
+  mDataSetPath: Vuforia/punch_2_OT.xml
   mBaseSize: 1
   mAspectRatioXY: 0.6666667
   mAspectRatioXZ: 0.6666667
   mShowBoundingBox: 1
   mBBoxMin: {x: 0, y: 0, z: 0}
   mBBoxMax: {x: 0.1425, y: 0.095, z: 0.095}
-  mPreviewImage: {fileID: 2800000, guid: 80f013c2dd774d32928185ac3e3640d0, type: 3}
+  mPreviewImage: {fileID: 2800000, guid: 563193f80f664af3a71dc731ba4e75a3, type: 3}
   mLength: 0.1425
   mWidth: 0.095
   mHeight: 0.095
@@ -2239,7 +2188,7 @@ Transform:
   - {fileID: 969480756}
   - {fileID: 1368467492}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!74 &1953459364
 AnimationClip:
